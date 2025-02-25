@@ -1,4 +1,4 @@
-package file
+package toolkit
 
 type File struct {
 	Name    string
