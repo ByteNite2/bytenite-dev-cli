@@ -27,6 +27,24 @@ Install the Bytenite CLI
 ```bash
 sudo apt install bytenite-cli
 ```
+Troubleshooting
+
+If you encounter any issues during installation:
+
+1. Make sure your system is up-to-date:
+   ```bash
+   sudo apt update && sudo apt upgrade
+   ```
+
+2. Verify the repository was correctly added:
+   ```bash
+   cat /etc/apt/sources.list.d/bytenite.list
+   ```
+
+3. Check if the package is available:
+   ```bash
+   apt search bytenite-cli
+   ```
 
 For MacOS Users.
 
@@ -56,23 +74,6 @@ Here are some common operations you can perform with the Bytenite CLI:
   bytenite-cli app new [app_name]
   ```
 
-## Troubleshooting
 
-If you encounter any issues during installation:
-
-1. Make sure your system is up-to-date:
-   ```bash
-   sudo apt update && sudo apt upgrade
-   ```
-
-2. Verify the repository was correctly added:
-   ```bash
-   cat /etc/apt/sources.list.d/bytenite.list
-   ```
-
-3. Check if the package is available:
-   ```bash
-   apt search bytenite-cli
-   ```
 
 For more information, please visit the website https://docs.bytenite.com/sdk/bytenite-dev-cli.
