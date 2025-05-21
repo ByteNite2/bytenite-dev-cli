@@ -1,14 +1,14 @@
 class Bytenite < Formula
   desc "ByteNite Development CLI tool"
   homepage "https://github.com/ByteNite2/bytenite-dev-cli"
-  version "2025.05.02"
+  version "2025.05.21"
   
   if Hardware::CPU.arm?
-    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.02/bytenite-cli-darwin-arm64"
-    sha256 "b0aeacef25359586f7d251f22d16509adf5b027b576664a4fed462ceb69589d4"
+    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.21/bytenite-cli-darwin-arm64"
+    sha256 "MISSING_CHECKSUM_PLACEHOLDER"
   else
-    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.02/bytenite-cli-darwin-amd64"
-    sha256 "88766cd1f544038e5a70b0066635db9a9f0bd1d9e8d492e33da58c913dc20012"
+    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.21/bytenite-cli-darwin-amd64"
+    sha256 "MISSING_CHECKSUM_PLACEHOLDER"
   end
   
   def install
