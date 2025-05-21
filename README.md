@@ -8,36 +8,38 @@ A guide to installing and using the Bytenite Command Line Interface (CLI).
 
 ## Installation
 
+### Linux
+
 The Bytenite CLI can be installed on Debian-based Linux distributions (Ubuntu, Debian, etc.) using the following commands:
 
-### Step 1: Add the Bytenite repository
+Add the Bytenite repository
 
 ```bash
 echo "deb [trusted=yes] https://storage.googleapis.com/bytenite-prod-apt-repo/debs ./" | sudo tee /etc/apt/sources.list.d/bytenite.list
 ```
-
-### Step 2: Update package lists
+Update package lists
 
 ```bash
 sudo apt update
 ```
-
-### Step 3: Install the Bytenite CLI
+Install the Bytenite CLI
 
 ```bash
 sudo apt install bytenite-cli
 ```
 
-## Basic Usage
+For MacOS Users.
 
-After installation, you can start using the Bytenite CLI directly from your terminal.
+### Mac
 
-### Getting Help
-
-To see all available commands and options:
-
+Add the Bytenite Tap
 ```bash
-bytenite-cli --help
+brew tap ByteNite2/bytenite-dev-cli https://github.com/ByteNite2/bytenite-dev-cli.git
+```
+
+Install the CLI
+```
+brew install bytenite
 ```
 
 ## Examples
