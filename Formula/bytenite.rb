@@ -1,14 +1,14 @@
 class Bytenite < Formula
   desc "ByteNite Development CLI tool"
   homepage "https://github.com/ByteNite2/bytenite-dev-cli"
-  version "2025.05.21"
+  version "2025.06.10"
   
   if Hardware::CPU.arm?
-    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.21/bytenite-cli-darwin-arm64"
-    sha256 "725b746e2eb0848683a03b7f5597ec2c3874bf92a9ccba1c75b9fe1b9ca71f04"
+    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.06.10/bytenite-cli-darwin-arm64"
+    sha256 "b6724f63482b4f89d77b91fe4fec99f24b74cbcb4e5965a8027e608de94699a2"
   else
-    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.05.21/bytenite-cli-darwin-amd64"
-    sha256 "22ddafeb4399332f7506e450b55e32d51bfb9c378b7cb86b75cf6acd06d3f766"
+    url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.06.10/bytenite-cli-darwin-amd64"
+    sha256 "50c08e7ce8f6c4809f08d76673db1730c26497d1debb84588c9efd2168fe06c7"
   end
   
   def install
