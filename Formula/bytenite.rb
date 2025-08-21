@@ -5,10 +5,10 @@ class Bytenite < Formula
   
   if Hardware::CPU.arm?
     url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.08.21/bytenite-cli-darwin-arm64"
-    sha256 "07da18f9fc71b84fd4c5175cd3b8d6db44996a75b31ba2f78d24a629644c90c0"
+    sha256 "73b4ae80bce2480773c448be98a7eb3db7539c72ee94a6ef0ad84c763799dc28"
   else
     url "https://github.com/ByteNite2/bytenite-dev-cli/releases/download/bytenite_cli_v2025.08.21/bytenite-cli-darwin-amd64"
-    sha256 "4c1fd2bd38c58e91752e8a27861f4b529244eadc11b4ae6c1126cc0aa0ccf613"
+    sha256 "86bf724bd0ecf242e758be65b1e76c8a5a134c52069e2e06ca6d20f39ae4e8eb"
   end
   
   def install
